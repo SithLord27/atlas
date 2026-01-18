@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+env/
+
+# Index and generated data
+index/
+brain.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System files
+Thumbs.db
+.DS_Store
