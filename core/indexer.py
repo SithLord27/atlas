@@ -88,3 +88,22 @@ if __name__ == "__main__":
         )
 
     save_index(data)
+
+def main():
+    data = index_files(".")
+    
+    console.print(f"\n[bold cyan]Indexed {len(data)} files[/bold cyan]\n")
+
+    for f, content in data.items():
+        color = "blue" if f.lower().endswith(".pdf") else "green"
+
+        console.print(
+            f"[green]FILE[/green] → "
+            f"[{color}]{f}[/{color}] "
+            f"([cyan]{len(content)} chars[/cyan])"
+        )
+
+
+if __name__ == "__main__":
+    main()
+
