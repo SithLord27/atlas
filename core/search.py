@@ -1,4 +1,4 @@
-from ranker import score_page
+from core.ranker import score_page
 import json
 import sys
 from pathlib import Path
