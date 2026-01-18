@@ -95,3 +95,12 @@ if __name__ == "__main__":
     else:
         show_results(results, query)
 
+def main_cli(query):
+    results = search(query)
+
+    if not results:
+        console.print("[red]No matches found[/red]")
+    else:
+        show_results(results, query)
+
+
