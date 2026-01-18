@@ -100,7 +100,7 @@ def main():
         console.print(
             f"[green]FILE[/green] → "
             f"[{color}]{f}[/{color}] "
-            f"([cyan]{len(content)} chars[/cyan])"
+            f"([cyan]{len(content)} pages[/cyan])"
         )
 
 
